@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  display: flex;
+}
+
+#home {
+  height: 700px;
+  width: 380px;
+}
+
+.container__lift {
+  position: absolute;
+  bottom: 24px;
+  left: 149px;
+}
+
+#lift {
+  width: 85px;
+  height: 40px;
+}
+
+.container__btns {
+  margin: 200px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  width: 50px;
+}
